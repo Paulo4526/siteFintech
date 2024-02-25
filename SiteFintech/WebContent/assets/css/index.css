@@ -1,0 +1,142 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    transition: .5s;
+}
+
+.logo:hover{
+    transform: scale(1.02);
+}
+
+.logo-link img{
+    max-width:200px ;
+    transition: .5s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 100%;
+}
+
+.container h2{
+    margin-bottom: 50px;
+}
+
+.row div{
+    margin: 0px auto;
+}
+
+.form-control{
+    padding-left: 70px;
+}
+
+label{
+    color: white;
+}
+
+.row i{
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+    font-size: 2rem;
+}
+
+.brands{
+    margin-top: 50px;
+}
+
+main .fa-brands{
+    font-size: 2rem;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.8s;
+    margin-top: 20px;
+}
+
+.molde {
+    width: 430px;
+}
+
+.cadastrar{
+    max-width: 700px;
+}
+
+.cadastrar a{
+    width: 50%;
+}
+
+.fa-facebook:hover{
+    color: rgb(3, 62, 189);
+    background-color: white;
+}
+
+.fa-instagram:hover{
+    color: hsl(9, 91%, 56%);
+    background-color: white;
+}
+
+.fa-twitter:hover{
+    color: rgb(34, 99, 240);
+    background-color: white;
+}
+
+.fa-tiktok:hover{
+    color: rgb(13, 13, 14);
+    background-color: rgba(223, 130, 8, 0.486);
+    text-shadow: 2px 2px 2px 2px red;
+}
+
+.fa-github:hover{
+    color: rgb(3, 3, 3);
+    background-color: white;
+}
+
+.fa-linkedin:hover{
+    color: rgb(3, 62, 189);
+    background-color: white;
+}
+
+.fa-brands:active{
+    transform: scale(0.95);
+}
+
+.validation{
+    position: relative;
+    bottom: 30px;
+}
+
+.button{
+    text-align: center;
+    transition: .5s;
+}
+
+
+.button:active{
+    transform: scale(0.99);
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    margin: 50px 0px 150px 0px;
+}
+
+.btn:hover{
+    transform: scale(1.01);
+}
+
+.molde{
+    position: relative;
+    bottom: 280px;
+}
+
+
+

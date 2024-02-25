@@ -1,0 +1,156 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-areas: 
+                    "nav header"
+    ;
+    background-color: white;
+}
+
+.logo{
+    grid-area: header;
+    text-align: center;
+    transition: .5s;
+    width: 200px;
+    justify-self: center;
+    margin-right: 100px;
+}
+
+.logo:hover{
+    transform: scale(1.02);
+}
+
+.logo img{
+    width: 200px;
+}
+
+
+.nav{
+    grid-area: nav;
+}
+
+h2{
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+
+i{
+    font-size: 2rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+
+form label{
+    color: white;
+}
+
+form #box-style{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.button{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.new-form{
+    width: 300px;
+}
+
+.form-control{
+    padding-left:70px ;
+}
+
+
+
+.fa-brands{
+    margin: 0px 20px 40px 20px;
+}
+
+.fa-facebook:hover{
+    color: rgb(3, 62, 189);
+    background-color: white;
+}
+
+.fa-instagram:hover{
+    color: hsl(9, 91%, 56%);
+    background-color: white;
+}
+
+.fa-twitter:hover{
+    color: rgb(34, 99, 240);
+    background-color: white;
+}
+
+.fa-linkedin:hover{
+    color: rgb(3, 62, 189);
+    background-color: white;
+}
+
+
+i:active{
+    transform: scale(0.8);
+}
+
+
+.figure{
+    width: 350px;
+    transition: .6s;
+}
+
+.figure:hover{
+    transform: scale(1.02);
+}
+
+section{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+
+footer{
+    background-color: white;
+    padding: 40px;
+}
+
+.contato{
+    width: 100%;
+}
+
+.icon{
+    color: #333;
+    position: relative;
+    bottom: 40px;
+}
+
+@media(max-width: 470px){
+    .logo{
+        width: 200px;
+    }
+
+    .fa-brands{
+        margin: 0px 5px 40px 5px;
+    }
+    .carrosel{
+        width: 350px;
+    }
+
+
+}

@@ -1,0 +1,156 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-areas: 
+                    "nav header"
+    ;
+    background-color: white;
+}
+
+.logo{
+    grid-area: header;
+    text-align: center;
+    transition: .5s;
+    width: 200px;
+    justify-self: center;
+    margin-right: 100px;
+}
+
+.logo:hover{
+    transform: scale(1.02);
+}
+
+.logo img{
+    width: 200px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+
+
+section{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.noticias{
+    margin-top: 100px;
+}
+
+hr{
+    margin-top: 50px;
+    color: white;
+}
+
+.carrosel{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.carrosel p{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.cards{
+    margin-top: 40px;
+}
+
+.row div{
+    width: 400px;
+    margin: 0px auto;
+
+}
+
+.figure{
+    width: 350px;
+    margin-bottom: 40px;
+    transition: .6s;
+}
+
+.figure:hover{
+    transform: scale(1.02);
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+
+i{
+    font-size: 2rem;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.fa-brands{
+    margin: 0px 20px 40px 20px;
+}
+
+.fa-facebook:hover{
+    color: rgb(3, 62, 189);
+    background-color: white;
+}
+
+.fa-instagram:hover{
+    color: hsl(9, 91%, 56%);
+    background-color: white;
+}
+
+.fa-twitter:hover{
+    color: rgb(34, 99, 240);
+    background-color: white;
+}
+
+.fa-linkedin:hover{
+    color: rgb(3, 62, 189);
+    background-color: white;
+}
+
+
+i:active{
+    transform: scale(0.8);
+}
+
+
+
+footer{
+    background-color: white;
+    padding: 40px;
+}
+
+.contato{
+    width: 100%;
+}
+
+
+@media(max-width: 475px){
+    .logo{
+        width: 200px;
+    }
+    
+    .fa-brands{
+        margin: 0px 5px 40px 5px;
+    }
+
+    .carrosel{
+        width: 350px;
+    }
+}
